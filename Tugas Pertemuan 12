@@ -1,0 +1,25 @@
+#include <conio.h>
+#include <iostream>
+using namespace std;
+
+
+void luas(float s)
+{
+float luas;
+luas=s*s;
+cout<<"luas : "<<luas<<endl;
+
+}
+
+
+main(void)
+{
+float sisi;
+cout<< " \tProgram Menghitung Luas Persegi"<<endl<<endl;
+string nama;
+cout<< " masukkan nama anda : ";
+cin >> nama;
+cout<<"\n Hay " << nama << ", Silahkan Masukan nilai sisi : "; cin>>sisi;
+luas(sisi);
+getch();
+}
